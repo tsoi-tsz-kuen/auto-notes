@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable rn_edit_text_material
+id floating_text
+id subtitleTextView
+integer react_native_dev_server_port
+layout floating_subtitle
+layout layout_floating_subtitle
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme

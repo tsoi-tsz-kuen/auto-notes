@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moblie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ROLE_CALL_SCREENING" />
+12-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:4:5-77
+12-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:4:22-75
+13    <!--
+14    This manifest file is used only by Gradle to configure debug-only capabilities
+15    for React Native Apps.
+16    -->
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->[com.facebook.react:react-android:0.75.2] C:\Users\kens0\.gradle\caches\8.8\transforms\dd510f3f8bd707ab236f5a2b88e6ba8d\transformed\react-android-0.75.2-debug\AndroidManifest.xml:16:5-78
+17-->[com.facebook.react:react-android:0.75.2] C:\Users\kens0\.gradle\caches\8.8\transforms\dd510f3f8bd707ab236f5a2b88e6ba8d\transformed\react-android-0.75.2-debug\AndroidManifest.xml:16:22-75
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\kens0\.gradle\caches\8.8\transforms\460c335611886d7ce1deb1c6d031a9b3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.moblie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\kens0\.gradle\caches\8.8\transforms\460c335611886d7ce1deb1c6d031a9b3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\kens0\.gradle\caches\8.8\transforms\460c335611886d7ce1deb1c6d031a9b3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.moblie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\kens0\.gradle\caches\8.8\transforms\460c335611886d7ce1deb1c6d031a9b3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\kens0\.gradle\caches\8.8\transforms\460c335611886d7ce1deb1c6d031a9b3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:8:5-31:19
+26        android:name="com.moblie.MainApplication"
+26-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:9:7-38
+27        android:allowBackup="false"
+27-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:13:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\kens0\.gradle\caches\8.8\transforms\460c335611886d7ce1deb1c6d031a9b3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:11:7-41
+32        android:label="@string/app_name"
+32-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:10:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:12:7-52
+34        android:supportsRtl="true"
+34-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:15:7-33
+35        android:theme="@style/AppTheme"
+35-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:14:7-38
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\kens0\Documents\notes\moblie\android\app\src\debug\AndroidManifest.xml:6:9-44
+37        <activity
+37-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:16:7-27:18
+38            android:name="com.moblie.MainActivity"
+38-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:17:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:19:9-118
+40            android:exported="true"
+40-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:22:9-32
+41            android:label="@string/app_name"
+41-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:18:9-41
+42            android:launchMode="singleTask"
+42-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:20:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:21:9-51
+44            <intent-filter>
+44-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:23:9-26:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:24:13-65
+45-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:24:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:25:13-73
+47-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:25:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:28:7-30:67
+52            android:name="com.moblie.FloatingSubtitleService"
+52-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:29:5-44
+53            android:permission="android.permission.SYSTEM_ALERT_WINDOW" />
+53-->C:\Users\kens0\Documents\notes\moblie\android\app\src\main\AndroidManifest.xml:30:5-64
+54
+55        <activity
+55-->[com.facebook.react:react-android:0.75.2] C:\Users\kens0\.gradle\caches\8.8\transforms\dd510f3f8bd707ab236f5a2b88e6ba8d\transformed\react-android-0.75.2-debug\AndroidManifest.xml:19:9-21:40
+56            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+56-->[com.facebook.react:react-android:0.75.2] C:\Users\kens0\.gradle\caches\8.8\transforms\dd510f3f8bd707ab236f5a2b88e6ba8d\transformed\react-android-0.75.2-debug\AndroidManifest.xml:20:13-77
+57            android:exported="false" />
+57-->[com.facebook.react:react-android:0.75.2] C:\Users\kens0\.gradle\caches\8.8\transforms\dd510f3f8bd707ab236f5a2b88e6ba8d\transformed\react-android-0.75.2-debug\AndroidManifest.xml:21:13-37
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.moblie.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kens0\.gradle\caches\8.8\transforms\b0f81720a37d14d13d67255a735d54ca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kens0\.gradle\caches\8.8\transforms\8c0c24040ce0bbc6270451d3ee289893\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kens0\.gradle\caches\8.8\transforms\8c0c24040ce0bbc6270451d3ee289893\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kens0\.gradle\caches\8.8\transforms\8c0c24040ce0bbc6270451d3ee289893\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+69        </provider>
+70
+71        <meta-data
+71-->[com.facebook.soloader:soloader:0.11.0] C:\Users\kens0\.gradle\caches\8.8\transforms\049a9df22242dbb11e3fcd064d5291ae\transformed\soloader-0.11.0\AndroidManifest.xml:12:9-14:37
+72            android:name="com.facebook.soloader.enabled"
+72-->[com.facebook.soloader:soloader:0.11.0] C:\Users\kens0\.gradle\caches\8.8\transforms\049a9df22242dbb11e3fcd064d5291ae\transformed\soloader-0.11.0\AndroidManifest.xml:13:13-57
+73            android:value="false" />
+73-->[com.facebook.soloader:soloader:0.11.0] C:\Users\kens0\.gradle\caches\8.8\transforms\049a9df22242dbb11e3fcd064d5291ae\transformed\soloader-0.11.0\AndroidManifest.xml:14:13-34
+74    </application>
+75
+76</manifest>
