@@ -4,7 +4,7 @@ import ffmpeg
 
 from faster_whisper import WhisperModel
 
-input_video = r"1a HCI Intro 1 rec1.mp4"
+input_video = r"1d HCI Intro 2 rec.mp4"
 input_video_name = input_video.replace(".mp4", "")
 
 # -------------------------------cd

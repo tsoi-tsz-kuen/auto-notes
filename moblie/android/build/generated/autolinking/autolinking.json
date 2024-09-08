@@ -2,7 +2,32 @@
   "root": "C:\\Users\\kens0\\Documents\\notes\\moblie",
   "reactNativePath": "C:\\Users\\kens0\\Documents\\notes\\moblie\\node_modules\\react-native",
   "reactNativeVersion": "0.75",
-  "dependencies": {},
+  "dependencies": {
+    "expo": {
+      "root": "C:\\Users\\kens0\\Documents\\notes\\moblie\\node_modules\\expo",
+      "name": "expo",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\Users\\kens0\\Documents\\notes\\moblie\\node_modules\\expo\\Expo.podspec",
+          "version": "51.0.32",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\Users\\kens0\\Documents\\notes\\moblie\\node_modules\\expo\\android",
+          "packageImportPath": "import expo.modules.ExpoModulesPackage;",
+          "packageInstance": "new ExpoModulesPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "C:/Users/kens0/Documents/notes/moblie/node_modules/expo/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    }
+  },
   "commands": [
     {
       "name": "bundle",
