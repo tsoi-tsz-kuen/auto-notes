@@ -1,0 +1,9 @@
+pip install streamlit
+pip install transformers
+pip install pymupdf
+pip install langdetect
+pip install easyocr
+pip install Pillow
+pip install numpy
+pip install sacremoses
+pip install sentencepiece
